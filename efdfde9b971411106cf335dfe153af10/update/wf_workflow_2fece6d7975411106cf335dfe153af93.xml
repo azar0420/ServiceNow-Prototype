@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"subflows":[],"stages":{},"ends":["3fe9a62997a011106cf335dfe153af24"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>f7e9a62997a011106cf335dfe153af25,37e9a62997a011106cf335dfe153af23,3fe9a62997a011106cf335dfe153af24</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>f7e9a62997a011106cf335dfe153af25,37e9a62997a011106cf335dfe153af23,3fe9a62997a011106cf335dfe153af24</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>PipelineWorkflow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">f7e9a62997a011106cf335dfe153af25</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>fbe9a62997a011106cf335dfe153af20</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:42:05</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="PipelineWorkflow">2fece6d7975411106cf335dfe153af93</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>PipelineWorkflow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 17:05:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2fece6d7975411106cf335dfe153af93</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PipelineWorkflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cloud Services" source="x_828747_cloud_s_1">efdfde9b971411106cf335dfe153af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cloud Services">efdfde9b971411106cf335dfe153af10</sys_scope>
+        <sys_update_name>wf_workflow_2fece6d7975411106cf335dfe153af93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 14:17:07</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>77e9a62997a011106cf335dfe153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>f3e9a62997a011106cf335dfe153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>7be9a62997a011106cf335dfe153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>f7e9a62997a011106cf335dfe153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>7fe9a62997a011106cf335dfe153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>fbe9a62997a011106cf335dfe153af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>f7e9a62997a011106cf335dfe153af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=f7e9a62997a011106cf335dfe153af25"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">f7e9a62997a011106cf335dfe153af25</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>bfe9a62997a011106cf335dfe153af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>3fe9a62997a011106cf335dfe153af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+        <x>503</x>
+        <y>247</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=3fe9a62997a011106cf335dfe153af24"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>RunPipeline</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>37e9a62997a011106cf335dfe153af23</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:41:41</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+        <x>241</x>
+        <y>218</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=37e9a62997a011106cf335dfe153af23"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>37e9a62997a011106cf335dfe153af23</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>bbe9a62997a011106cf335dfe153af23</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:41:41</sys_updated_on>
+        <value>//runs the pipeline to create a response&#13;
+function makeResponse() {&#13;
+	var sm = new sn_ws.RESTMessageV2("AzurePipeline", "POST");&#13;
+	&#13;
+	var body = '{"resources": { "repositories": { "self": { "refName": "refs/heads/main" } } }, "variables": { "HELLO_WORLD": { "isSecret": false, "value": "HelloWorldValue" }, "test_var": { "value": 5 }}}';&#13;
+	&#13;
+	var url = sm.getEndpoint();&#13;
+	sm.setEndpoint(url + '&amp;name=' + current.variables.requester_s_name);&#13;
+	&#13;
+	gs.info('body: ' + body);&#13;
+	gs.info('url: ' + sm.getEndpoint());&#13;
+	&#13;
+	sm.setRequestBody(body);&#13;
+	&#13;
+	var response = sm.execute();&#13;
+	&#13;
+	return JSON.parse(response.getBody());&#13;
+}&#13;
+&#13;
+//creates the GET REST Message from the response&#13;
+function makeRESTMessage() {&#13;
+	var stateMessage = new sn_ws.RESTMessageV2("AzurePipeline", "DEFAULT GET");&#13;
+	var parsed = makeResponse();&#13;
+	&#13;
+	stateMessage.setEndpoint('https://dev.azure.com/NellyAzar/ServiceNow/_apis/pipelines/3/runs/' + parsed.id + '?api-version=6.0-preview.1&amp;test_value=5&amp;hello=10&amp;name=' + current.variables.requester_s_name);&#13;
+&#13;
+	return stateMessage;&#13;
+}&#13;
+&#13;
+//returns the run state by executing the GET REST Message&#13;
+function getRunState(stateMessage) {&#13;
+&#13;
+    var execute = stateMessage.execute();&#13;
+    var stateBodyJSON = JSON.parse(execute.getBody());&#13;
+	return stateBodyJSON.state;&#13;
+&#13;
+}&#13;
+&#13;
+//loops every 6 seconds until the pipeline is done running&#13;
+function iterate(stateMessage) {&#13;
+	var scriptInclude = new global.cloudSleep();&#13;
+&#13;
+	do {&#13;
+		scriptInclude.sleep(6000);&#13;
+	} while (getRunState(stateMessage) == "inProgress");&#13;
+}&#13;
+&#13;
+//-------------------------------------- MAIN ---------------------------------------------------&#13;
+var stateMessage = makeRESTMessage();&#13;
+&#13;
+iterate(stateMessage);</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>37e9a62997a011106cf335dfe153af23</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>bbe9a62997a011106cf335dfe153af23</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:41:41</sys_updated_on>
+        <value>//runs the pipeline to create a response&#13;
+function makeResponse() {&#13;
+	var sm = new sn_ws.RESTMessageV2("AzurePipeline", "POST");&#13;
+	&#13;
+	var body = '{"resources": { "repositories": { "self": { "refName": "refs/heads/main" } } }, "variables": { "HELLO_WORLD": { "isSecret": false, "value": "HelloWorldValue" }, "test_var": { "value": 5 }}}';&#13;
+	&#13;
+	var url = sm.getEndpoint();&#13;
+	sm.setEndpoint(url + '&amp;name=' + current.variables.requester_s_name);&#13;
+	&#13;
+	gs.info('body: ' + body);&#13;
+	gs.info('url: ' + sm.getEndpoint());&#13;
+	&#13;
+	sm.setRequestBody(body);&#13;
+	&#13;
+	var response = sm.execute();&#13;
+	&#13;
+	return JSON.parse(response.getBody());&#13;
+}&#13;
+&#13;
+//creates the GET REST Message from the response&#13;
+function makeRESTMessage() {&#13;
+	var stateMessage = new sn_ws.RESTMessageV2("AzurePipeline", "DEFAULT GET");&#13;
+	var parsed = makeResponse();&#13;
+	&#13;
+	stateMessage.setEndpoint('https://dev.azure.com/NellyAzar/ServiceNow/_apis/pipelines/3/runs/' + parsed.id + '?api-version=6.0-preview.1&amp;test_value=5&amp;hello=10&amp;name=' + current.variables.requester_s_name);&#13;
+&#13;
+	return stateMessage;&#13;
+}&#13;
+&#13;
+//returns the run state by executing the GET REST Message&#13;
+function getRunState(stateMessage) {&#13;
+&#13;
+    var execute = stateMessage.execute();&#13;
+    var stateBodyJSON = JSON.parse(execute.getBody());&#13;
+	return stateBodyJSON.state;&#13;
+&#13;
+}&#13;
+&#13;
+//loops every 6 seconds until the pipeline is done running&#13;
+function iterate(stateMessage) {&#13;
+	var scriptInclude = new global.cloudSleep();&#13;
+&#13;
+	do {&#13;
+		scriptInclude.sleep(6000);&#13;
+	} while (getRunState(stateMessage) == "inProgress");&#13;
+}&#13;
+&#13;
+//-------------------------------------- MAIN ---------------------------------------------------&#13;
+var stateMessage = makeRESTMessage();&#13;
+&#13;
+iterate(stateMessage);</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="RunPipeline">37e9a62997a011106cf335dfe153af23</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>37e9a62997a011106cf335dfe153af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">37e9a62997a011106cf335dfe153af24</condition>
+        <from display_value="RunPipeline">37e9a62997a011106cf335dfe153af23</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>b3e9a62997a011106cf335dfe153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <to display_value="End">3fe9a62997a011106cf335dfe153af24</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">bfe9a62997a011106cf335dfe153af25</condition>
+        <from display_value="Begin">f7e9a62997a011106cf335dfe153af25</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>ffe9a62997a011106cf335dfe153af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <to display_value="RunPipeline">37e9a62997a011106cf335dfe153af23</to>
+    </wf_transition>
+    <wf_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item/>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>Variable</name>
+        <order/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Hello World</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>wf_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>b7e9a62997a011106cf335dfe153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Cloud Services">efdfde9b971411106cf335dfe153af10</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>6</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <workflow display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow>
+        <write_roles/>
+    </wf_variable>
+    <sys_translated_text action="delete_multiple" query="documentkey=b7e9a62997a011106cf335dfe153af27"/>
+    <fx_price action="delete_multiple" query="id=b7e9a62997a011106cf335dfe153af27"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>b7e9a62997a011106cf335dfe153af27</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>3be9a62997a011106cf335dfe153af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>b7e9a62997a011106cf335dfe153af27</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>fbe9a62997a011106cf335dfe153af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <table>wf_variable</table>
+        <type>calculated</type>
+    </fx_price>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:38:58</sys_created_on>
+        <sys_id>bfe9a62997a011106cf335dfe153af20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:38:58</sys_updated_on>
+        <workflow_version display_value="PipelineWorkflow">fbe9a62997a011106cf335dfe153af20</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=2fece6d7975411106cf335dfe153af93^sys_id!=fbe9a62997a011106cf335dfe153af20">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

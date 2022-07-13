@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="tester">f443aea197a011106cf335dfe153af19</sc_cat_item>
+        <sc_category display_value="Cloud Services">d6676e93975411106cf335dfe153af61</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 16:09:49</sys_created_on>
+        <sys_id>cd43aea197a011106cf335dfe153af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud Services.tester</sys_name>
+        <sys_package display_value="Cloud Services" source="x_828747_cloud_s_1">efdfde9b971411106cf335dfe153af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cloud Services">efdfde9b971411106cf335dfe153af10</sys_scope>
+        <sys_update_name>sc_cat_item_category_cd43aea197a011106cf335dfe153af7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 16:09:49</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

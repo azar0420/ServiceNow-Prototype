@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Intended to broadcast a message when the record producer is submitted</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Record Producer Message</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var status = g_scratchpad.status;
+	if (status == 'new') {
+		g_form.addInfoMessage("Request Submitted");
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 18:53:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e9de3f6976411106cf335dfe153afdd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Producer Message</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cloud Services" source="x_828747_cloud_s_1">efdfde9b971411106cf335dfe153af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cloud Services">efdfde9b971411106cf335dfe153af10</sys_scope>
+        <sys_update_name>sys_script_client_3e9de3f6976411106cf335dfe153afdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-12 13:09:17</sys_updated_on>
+        <table>x_828747_cloud_s_1_cloud_main</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

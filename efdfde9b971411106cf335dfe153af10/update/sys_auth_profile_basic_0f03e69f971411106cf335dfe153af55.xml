@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>AzureToken</name>
+        <password>﷞﷟﷒c7622e5f971411106cf335dfe153affc﷬﷔1﷬﷭EWZ9bAxNBP6XijRBAUip2g==LHfpjx5xMBaW6GCpjGnrN5gvAfgN9UcRDBx0CK-FVclsK8-jhN2oqhADdSEKkXSoKfQIysFsX4RONjd0wE_fJfDgnKw=﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 16:23:25</sys_created_on>
+        <sys_id>0f03e69f971411106cf335dfe153af55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AzureToken</sys_name>
+        <sys_package display_value="Cloud Services" source="x_828747_cloud_s_1">efdfde9b971411106cf335dfe153af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cloud Services">efdfde9b971411106cf335dfe153af10</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_0f03e69f971411106cf335dfe153af55</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 16:23:25</sys_updated_on>
+        <username>user</username>
+    </sys_auth_profile_basic>
+</record_update>
