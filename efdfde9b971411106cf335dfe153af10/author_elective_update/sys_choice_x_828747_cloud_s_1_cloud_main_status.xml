@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_828747_cloud_s_1_cloud_main" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_828747_cloud_s_1_cloud_main</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-30 16:16:50</sys_created_on>
+            <sys_id>abb1225f971411106cf335dfe153afb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Cloud Services" source="x_828747_cloud_s_1">efdfde9b971411106cf335dfe153af10</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cloud Services">efdfde9b971411106cf335dfe153af10</sys_scope>
+            <sys_update_name>sys_choice_x_828747_cloud_s_1_cloud_main_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-30 16:16:50</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_828747_cloud_s_1_cloud_main</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-30 16:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67b1225f971411106cf335dfe153afb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-30 16:16:50</sys_updated_on>
+            <value>new</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Discovering</label>
+            <language>en</language>
+            <name>x_828747_cloud_s_1_cloud_main</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-30 16:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27b1225f971411106cf335dfe153afb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-30 16:16:50</sys_updated_on>
+            <value>discovering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting on Customer</label>
+            <language>en</language>
+            <name>x_828747_cloud_s_1_cloud_main</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-30 16:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7b1225f971411106cf335dfe153afb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-30 16:16:50</sys_updated_on>
+            <value>waiting_on_customer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Architecting</label>
+            <language>en</language>
+            <name>x_828747_cloud_s_1_cloud_main</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-30 16:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abb1225f971411106cf335dfe153afb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-30 16:16:50</sys_updated_on>
+            <value>architecting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivering CO</label>
+            <language>en</language>
+            <name>x_828747_cloud_s_1_cloud_main</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-30 16:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fb1225f971411106cf335dfe153afba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-30 16:16:50</sys_updated_on>
+            <value>delivering_co</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivering CT</label>
+            <language>en</language>
+            <name>x_828747_cloud_s_1_cloud_main</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-30 16:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23b1225f971411106cf335dfe153afbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-30 16:16:50</sys_updated_on>
+            <value>delivering_ct</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lessons Learned</label>
+            <language>en</language>
+            <name>x_828747_cloud_s_1_cloud_main</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-30 16:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3b1225f971411106cf335dfe153afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-30 16:16:50</sys_updated_on>
+            <value>lessons_learned</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complete</label>
+            <language>en</language>
+            <name>x_828747_cloud_s_1_cloud_main</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-30 16:16:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b1225f971411106cf335dfe153afc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-30 16:16:50</sys_updated_on>
+            <value>complete</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

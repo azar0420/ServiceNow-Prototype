@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="cloud_main" max_length="40" name="x_828747_cloud_s_1_cloud_main" sizeclass="7" type="collection">
+        <element choice="3" label="Business Unit" max_length="40" name="business_unit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IT" sequence="0" value="it"/>
+                <element inactive_on_update="false" label="SWC" sequence="1" value="swc"/>
+                <element inactive_on_update="false" label="LFS" sequence="2" value="lfs"/>
+                <element inactive_on_update="false" label="ITD" sequence="3" value="itd"/>
+                <element inactive_on_update="false" label="SC" sequence="4" value="sc"/>
+                <element inactive_on_update="false" label="SCD" sequence="5" value="scd"/>
+                <element inactive_on_update="false" label="GSM" sequence="6" value="gsm"/>
+            </choice>
+        </element>
+        <element choice="3" default="new" display="true" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Discovering" sequence="1" value="discovering"/>
+                <element inactive_on_update="false" label="Waiting on Customer" sequence="2" value="waiting_on_customer"/>
+                <element inactive_on_update="false" label="Architecting" sequence="3" value="architecting"/>
+                <element inactive_on_update="false" label="Delivering CO" sequence="4" value="delivering_co"/>
+                <element inactive_on_update="false" label="Delivering CT" sequence="5" value="delivering_ct"/>
+                <element inactive_on_update="false" label="Lessons Learned" sequence="6" value="lessons_learned"/>
+                <element inactive_on_update="false" label="Complete" sequence="7" value="complete"/>
+            </choice>
+        </element>
+    </element>
+</database>

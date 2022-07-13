@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_template">
+    <sc_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for/>
+        <cat_item display_value="Record Producer Builder">3558cf50c7321010159ca1e603c2605b</cat_item>
+        <name>Cloud Services Record Producer</name>
+        <short_description/>
+        <sys_class_name>sc_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 16:53:59</sys_created_on>
+        <sys_id>4d3aa217975411106cf335dfe153af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud Services Record Producer</sys_name>
+        <sys_package display_value="Cloud Services" source="x_828747_cloud_s_1">efdfde9b971411106cf335dfe153af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cloud Services">efdfde9b971411106cf335dfe153af10</sys_scope>
+        <sys_update_name>sc_template_4d3aa217975411106cf335dfe153af63</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-30 16:53:59</sys_updated_on>
+    </sc_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d3aa217975411106cf335dfe153af63"/>
+</record_update>
